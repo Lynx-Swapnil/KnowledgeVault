@@ -305,18 +305,21 @@ nav .navigation #btn-n{
 }
 #foot {
     background-color: #001931;
+    max-width: 1600px;
 }
 #foot .footer-container{
     display: flex;
-    gap: 1006px;
+    justify-content: space-between;
+    /* gap: 1000px; */
 }
 #foot .footer-logo{
     margin-left: 120px;
     margin-top: 120px;
     margin-bottom: 168px;
 }
-#foot .social{
+#foot .footer-container .social{
     margin-top: 120px;
+   margin-right: 227px;
     
 }
 #foot .social ul{
@@ -332,6 +335,22 @@ nav .navigation #btn-n{
     margin-bottom: 16px;
 
 }
+#foot .social ul li{
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+#foot .social ul li i{
+    font-size: 28px; 
+    line-height: 1;
+    opacity: 0.95;
+}
+#foot .social ul li:hover i,
+#foot .social ul li:focus-within i{
+    color: #30B868;
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
 #foot .footer-line{
     font-size: 18px;
     font-weight: normal;
@@ -339,7 +358,7 @@ nav .navigation #btn-n{
     color: #FAFAFA;
     text-align: center;
     padding-bottom: 30px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 hr{
     max-width: 1360px; 
