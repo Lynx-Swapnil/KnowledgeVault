@@ -39,10 +39,10 @@ nav .navigation ul li{
     font-weight: 500;
     color: #000000;
     cursor: pointer;
+    position: relative;
 }
 nav .navigation ul li:hover {
     color: #469165;
-    position: relative;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 nav .navigation ul li::after {
