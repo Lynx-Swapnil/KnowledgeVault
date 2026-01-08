@@ -44,3 +44,118 @@ nav .navigation #btn-n{
     font-size: 16px;
     cursor: pointer;
 }
+#banner{
+    /* background-color: #469165; */
+    background-image: url('../assets/hero-bg.png');
+    height: 648px;
+    width: 100%;
+}
+#banner .banner-content{
+    text-align: center;
+    
+    margin-bottom: 179px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+#banner #btn-h{
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    border: none;
+    margin-top: 115px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+/* OUTER DOT (16x16) */
+.status-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #cfe6d8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MIDDLE DOT */
+.dot-mid {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8fc4a5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* INNER CORE */
+.dot-core {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4e8f63;
+}
+#btn-h{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+#banner .banner-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    max-width: 770px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+#banner .banner-content #h-color{
+    color: #30B868;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 0px 295px ;
+}
+#banner #btn-b{
+     margin-right: 16px;
+    margin-top: 32px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#banner #btn-b2 {
+    margin-right: 16px;
+    margin-top: 32px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
