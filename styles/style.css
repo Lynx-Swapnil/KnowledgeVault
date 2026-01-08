@@ -223,3 +223,41 @@ nav .navigation #btn-n{
     margin-right: 24px;
     padding-bottom: 0px;
 }
+#solution .solution-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+#solution .solution-container .solution-list ul{
+    list-style: none;
+}
+#solution .solution-container .solution-list .sp{
+    max-width: 700px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+}
+#solution .solution-container .solution-list .sp1{
+    color:#469165;
+    font-size: 16px;
+    line-height: 20px;   
+    font-weight: normal;
+    margin-bottom: 16px;
+
+}
+#solution .solution-container .solution-list h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+#solution .solution-container .solution-list ul li{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+}
