@@ -304,6 +304,9 @@ nav .navigation #btn-n{
     line-height: 20px;
     color: #001931;
     margin-bottom: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
 }
 #clear .clear-container{
     padding-top: 80px;
