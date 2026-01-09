@@ -192,6 +192,12 @@ nav .navigation #btn-n{
     cursor: pointer;
 }
 
+#bg {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+
 #note .note-container .note-box{
     display: flex;
     gap: 24px;
